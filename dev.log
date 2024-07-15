@@ -1,0 +1,22 @@
+Nuxt 3.12.3 with Nitro 2.9.7
+
+  ➜ Local:    http://localhost:3000/
+  ➜ Network:  use --host to expose
+
+  ➜ DevTools: press Shift + Option + D in the browser (v1.3.9)
+
+[nitro] ✔ Nuxt Nitro server built in 389 ms
+ℹ Vite server warmed up in 917ms
+ℹ Vite client warmed up in 954ms
+
+ ERROR  [worker reload] [worker init] Package import specifier "#internal/nitro/virtual/app-config" is not defined in package /Users/nico/sources/empty-app/node_modules/nitropack/package.json imported from /Users/nico/sources/empty-app/node_modules/nitropack/dist/runtime/config.mjs
+
+  at importNotDefined (node:internal/modules/esm/resolve:286:10)
+  at packageImportsResolve (node:internal/modules/esm/resolve:736:9)
+  at moduleResolve (node:internal/modules/esm/resolve:904:16)
+  at defaultResolve (node:internal/modules/esm/resolve:1119:11)
+  at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:541:12)
+  at ModuleLoader.resolve (node:internal/modules/esm/loader:510:25)
+  at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:240:38)
+  at ModuleJob._link (node:internal/modules/esm/module_job:126:49)
+
